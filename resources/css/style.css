@@ -42,7 +42,7 @@ p {
   margin: 0 auto;
 }
 
-.logo, nav ul, .products, .business-info, .product, .product-image, .info  {
+.logo, nav ul, .products, .business-info, .product, .product-image, .info, #shortnav {
   display: flex;
 }
 

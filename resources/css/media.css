@@ -1,0 +1,37 @@
+/* desktop */
+@media only screen and (min-width: 1024px) {
+   #shortnav {
+    display: none;
+  }
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1024px) {
+  h2 {
+    font-size: 0.95rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  .product {
+    width: 47%;
+  }
+  #fullnav, #glasses {
+    display: none;
+  }
+  #shortnav {
+    flex-direction: column;
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 470px) {
+  .product {
+    width: 90%;
+  }
+  #watch {
+    display: none;
+  }
+}

@@ -6,6 +6,7 @@
 
     <link href="resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="resources/css/media.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
@@ -30,30 +31,35 @@
         </div>
 
         <nav>
-          <ul class="container">
+          <ul class="container" id="fullnav">
             <li>Eyewear</li>
             <li>Gadgets</li>
             <li>Vehicles</li>
             <li>Classes</li>
             <li>Contact</li>
           </ul>
+
+          <ul class="container" id="shortnav">
+            <li>Menu</li>
+          </ul>
+
         </nav>
 
         <div class="container">
           <div class="products">
-            <div class="product">
+            <div class="product" id="pen">
               <div class="product-image">
                 <img src="resources/media/pen.png" alt="Stylish Pens" />
               </div>
               <span class="description">Exploding Pen</span>
             </div>
-            <div class="product">
+            <div class="product" id="watch">
               <div class="product-image">
                 <img src="resources/media/watch.png" alt="Cool Gadget Watch" />
               </div>
               <span class="description">Cellular Watch</span>
             </div>
-            <div class="product">
+            <div class="product" id="glasses">
               <div class="product-image">
                 <img src="resources/media/glasses.png" alt="X-ray Vision Glasses" />
               </div>
