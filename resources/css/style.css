@@ -4,6 +4,10 @@ html {
   color: white;
 }
 
+body {
+  line-height: normal;
+}
+
 div {
   border: 0.5px dashed red;
 }
@@ -20,13 +24,12 @@ h1 {
 
 h2 {
   font-weight: bold;
-  padding-top: 2rem;
 }
 
 h3 {
   font-size: 2rem;
   font-weight: bold;
-  padding-top: 0.25rem;
+  padding: 0.25rem 0;
 }
 
 header {
@@ -93,6 +96,7 @@ nav ul {
 .product {
   width: 30%;
   flex-direction: column;
+  justify-content: center;
 }
 
 .description {
@@ -131,12 +135,10 @@ footer {
   padding: 1rem 2rem;
 }
 
-.copyright {
-  height: 5rem;
-}
+
 
 .copyright p {
   color: white;
   text-align: left;
-  padding-top: 2.5rem;
+  padding: 5rem 0;
 }

@@ -28,10 +28,46 @@
 /* mobile */
 
 @media only screen and (max-width: 470px) {
-  .product {
+  .hero {
+    height: 15rem;
+  }
+
+  h2 {
+    font-size: 0.77rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .title {
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .products, .business-info {
+    justify-content: space-around;
+  }
+
+  .product, .info {
     width: 90%;
   }
+
+  .business-info {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+
+  .info p {
+    padding-bottom: 0.5rem;
+  }
+
   #watch {
     display: none;
+  }
+
+  .copyright p {
+    text-align: center;
   }
 }
